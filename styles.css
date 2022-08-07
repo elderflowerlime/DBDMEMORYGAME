@@ -4,34 +4,19 @@ body {
     background-image: url('images/BGR.png');
     background-color: black;
     color: aliceblue;
+    font-family: "Roboto", sans-serif
     
 }
 
 .container {
     width: auto;
-    height: 100vh;
+    height: 100%;
     text-align: center;
-    position: relative;
-
-}
-
-h1 {
-    font-family: "Roboto", sans-serif;
-
-}
-
-h3 {
-
-    font-family: "Roboto", sans-serif
 }
 
 .game-title {
-    font-family: "Roboto", sans-serif;
     font-size: 1.5em;
     color: brown;
-    position: absolute;
-    top: 5%;
-    transform: translate(-50%, -50%);
     
 }
 
@@ -42,7 +27,7 @@ h3 {
     flex-wrap: wrap;
     justify-content: center;
     position: absolute;
-    top: 30%;
+    top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
 
